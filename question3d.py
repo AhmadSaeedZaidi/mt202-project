@@ -32,8 +32,8 @@ y2 = rho2 * np.sin(phi2) * np.sin(theta2)
 z2 = rho2 * np.cos(phi2)
 
 # Plot both surfaces on the same axes with the color #cde4d5
-ax.plot_surface(x1, y1, z1, color='#cde4d5', alpha=0.5, rstride=2, cstride=2)  # Reduced stride for higher resolution
-ax.plot_surface(x2, y2, z2, color='#cde4d5', alpha=0.5, rstride=2, cstride=2)  # Reduced stride for higher resolution
+ax.plot_surface(x1, y1, z1, color='#ceefd7', alpha=0.5, rstride=3, cstride=3)  # Reduced stride for higher resolution
+ax.plot_surface(x2, y2, z2, color='#ceefd7', alpha=0.5, rstride=3, cstride=3)  # Reduced stride for higher resolution
 
 # 3. Add the z-axis line
 ax.plot([0, 0], [0, 0], [1, 1.2], color='black', lw=2)
